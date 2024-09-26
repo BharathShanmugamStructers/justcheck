@@ -1,0 +1,16 @@
+chatgpt   I am installing the DWS service, which allows for remote desktop sharing with other users. For that installation, it is providing dwagent. I want to install this with a few automations,it provides the dwsagent.sh file  like ,
+For installation, there are few steps. 
+[1.Download using sudo wget https://dwservice.net/download/dwagen_generic.sh
+2. 1.Install 2.run 3. i dont accept [it should select 1.Install]
+3. Select the installation path[set to default path ex:usr/share/dwagent]
+4. confirmation of the installation path [would you like to install DWAGENT in usr/share/dwagent ] select yes
+5.How would you like to like to configure the agent?
+1. Enter the installation Code
+2. creating a new agent 
+select the first option (1. Enter the installation Code)
+6.then it will ask for [Enter the installation code
+on that time user should provide the installation code]
+
+If the user provides all the steps, it will show the installation is completed.
+I want to automate up to the 4th step. When this shell script runs, it should ask only the installation code from the user, then everything should be done automatically.
+provide me the shell script for the installation file 
